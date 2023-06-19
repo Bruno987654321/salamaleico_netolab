@@ -1,0 +1,70 @@
+/Definição das variaveis do CSS/
+:root {
+    --primary-color: rgb (255 0 0);
+    --secondary-color: rgb (0 255 0);
+    --tertiary-color: rgb (0 0 255);
+    --back-color: hsl(0, 4%, 59%);
+}
+
+* {
+    background: var(--back-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+main {
+     display: flex;
+     justify-content: space;
+     width: 80%;
+     margin: 0 auto;
+}
+
+.box {
+    width: 700px;
+    height: 920px;
+    border: 1px solid;
+    background: gold;
+    margin-bottom: 20px;
+    text-align:start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.img {
+    height: 601px;
+    width: 625px;
+}
+
+.img1 {
+    height: 601px;
+    width: 625px;
+}
+
+.img2 {
+    height: 601px;
+    width: 625px;
+}
+
+.img3 {
+    height: 601px;
+    width: 625px;
+}
+
+.img4 {
+    height: 601px;
+    width: 625px;
+}
+
+#red {
+    background: rgb(46, 94, 224);
+}
+#green {
+    background: rgb(38, 90, 38)3, 46, 13);
+}
+#blue {
+    background: rgb(58, 58, 58);
+}
